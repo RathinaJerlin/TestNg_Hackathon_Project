@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+  	<listener class-name = "utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      	 <class name="testScenario.TestScenario_01_EnteringRequiredValuesInHomePage"/>
+         <class name="testScenario.TestScenario_02_EMIPaymentTable2425"/>
+         <class name="testScenario.TestScenario_03_EMICalculatorPageUIChecks"/>
+         <class name="testScenario.TestScenario_04_LoanAmtCalculatorUIChecks"/>
+         <class name="testScenario.TestScenario_05_LoanTenureUIChecks"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

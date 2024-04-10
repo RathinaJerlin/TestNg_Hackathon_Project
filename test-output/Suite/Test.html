@@ -1,0 +1,215 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 10 15:27:02 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>94 seconds (94344 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider()'><b>LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider()'><b>EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validateLoanAmountTextBoxAndSlider()'><b>validateLoanAmountTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_01_EnteringRequiredValuesInHomePage.enterRequiredValuesInHomePage()'><b>enterRequiredValuesInHomePage</b><br>Test class: testScenario.TestScenario_01_EnteringRequiredValuesInHomePage</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_01_EnteringRequiredValuesInHomePage@4afcd809</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.LoanAmtCalculator_ValidatingEMITextBoxAndSlider()'><b>LoanAmtCalculator_ValidatingEMITextBoxAndSlider</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>4</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ValidatingInterestRateTextBoxAndSlider()'><b>ValidatingInterestRateTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validateDataFlowBetweenInterestRateSliderAndTextBox()'><b>validateDataFlowBetweenInterestRateSliderAndTextBox</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ValidatingLoanAmountTextBoxAndSlider()'><b>ValidatingLoanAmountTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.LoanAmtCalculator_ValidatingInterestRateTextBoxAndSlider()'><b>LoanAmtCalculator_ValidatingInterestRateTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>0</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ScaleChangeForFeesAndChargesTextBoxAndSlider()'><b>ScaleChangeForFeesAndChargesTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ValidatingLoanTenureTextBoxAndSlider()'><b>ValidatingLoanTenureTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validateFeesAndChargesTextBoxAndSlider()'><b>validateFeesAndChargesTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.validateFeesAndChargesTextBoxAndSlider()'><b>validateFeesAndChargesTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validateInterestRateTextBoxAndSlider()'><b>validateInterestRateTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ScaleChangeForInterestRateTextBoxAndSlider()'><b>ScaleChangeForInterestRateTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()'><b>validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>4</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ValidationForYearAndMonthOption()'><b>ValidationForYearAndMonthOption</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()'><b>validatingDataFlowBetweenFeesAndChargesSliderAndTextBox</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ValidatingFeesAndChargesTextBoxAndSlider()'><b>ValidatingFeesAndChargesTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_02_EMIPaymentTable2425.emiPaymentTable2425()'><b>emiPaymentTable2425</b><br>Test class: testScenario.TestScenario_02_EMIPaymentTable2425</td>
+<td></td>
+<td>1</td>
+<td>testScenario.TestScenario_02_EMIPaymentTable2425@408d971b</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.validatingDataFlowBetweenYearAndMonthButton()'><b>validatingDataFlowBetweenYearAndMonthButton</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validatingDataFlowBetweenLoanAmountSliderAndTextBox()'><b>validatingDataFlowBetweenLoanAmountSliderAndTextBox</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_05_LoanTenureUIChecks.validatingEMITextBoxAndSlider()'><b>validatingEMITextBoxAndSlider</b><br>Test class: testScenario.TestScenario_05_LoanTenureUIChecks</td>
+<td></td>
+<td>4</td>
+<td>testScenario.TestScenario_05_LoanTenureUIChecks@c730b35</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.validateLoanTenureTextBoxAndSlider()'><b>validateLoanTenureTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>2</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_03_EMICalculatorPageUIChecks.ScaleChangeForLoanAmountTextBoxAndSlider()'><b>ScaleChangeForLoanAmountTextBoxAndSlider</b><br>Test class: testScenario.TestScenario_03_EMICalculatorPageUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_03_EMICalculatorPageUIChecks@6c6cb480</td></tr>
+<tr>
+<td title='testScenario.TestScenario_04_LoanAmtCalculatorUIChecks.validatingDataFlowBetweenLoanTenureSliderAndTextBox()'><b>validatingDataFlowBetweenLoanTenureSliderAndTextBox</b><br>Test class: testScenario.TestScenario_04_LoanAmtCalculatorUIChecks</td>
+<td></td>
+<td>3</td>
+<td>testScenario.TestScenario_04_LoanAmtCalculatorUIChecks@3c46e67a</td></tr>
+<tr>
+<td title='testScenario.TestScenario_02_EMIPaymentTable2425.YearTableInExcel()'><b>YearTableInExcel</b><br>Test class: testScenario.TestScenario_02_EMIPaymentTable2425</td>
+<td></td>
+<td>5</td>
+<td>testScenario.TestScenario_02_EMIPaymentTable2425@408d971b</td></tr>
+</table><p>
+</body>
+</html>

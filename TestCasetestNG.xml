@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+  	<listener class-name = "utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+    
+         
+	    
+	    <class name="testCase.TestCase_01_EnteringRequiredValuesInHomePage"/>
+	    <class name="testCase.TestCase_02_EMIPaymentTable2425"/>
+	    <class name="testCase.TestCase_03_YearTableInExcel"/>
+	    <class name="testCase.TestCase_04_EMICalculator_ValidatingLoanAmountTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_06_EMICalculator_ValidatingInterestRateTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_07_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>	    
+	    <class name="testCase.TestCase_08_EMICalculator_ValidatingLoanTenureTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_10_EMICalculator_ValidatingFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_11_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_12_EMICalculator_ValidationForYearAndMonthOption"/>
+	    <class name="testCase.TestCase_13_LoanAmtCalculator_ValidatingEMITextBoxAndSlider"/>
+	    <class name="testCase.TestCase_14_LoanAmtCalculator_ValidatingInterestRateTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_15_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_16_LoanAmtCalculator_ValidatingLoanTenureTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_17_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_18_LoanAmtCalculator_ValidatingFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_19_LoanAmtCalculator_ValidationForYearAndMonthOption"/>
+	    <class name="testCase.TestCase_20_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_21_LoanTenureCalculator_ValidatingLoanAmountTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_22_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_23_LoanTenureCalculator_ValidatingEMITextBoxAndSlider"/>
+	    <class name="testCase.TestCase_24_LoanTenureCalculator_ValidatingInterestRateTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_25_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_26_LoanTenureCalculator_ValidatingFeesAndChargesTextBoxAndSlider"/>
+	    <class name="testCase.TestCase_27_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider"/>
+	    
+	    
+      
+    </classes>
+  </test> 
+
+  
+   
+</suite>
